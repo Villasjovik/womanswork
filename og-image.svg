@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#123B32"/>
+  <circle cx="1060" cy="-40" r="330" fill="#1B4E42" opacity=".78"/>
+  <circle cx="-65" cy="620" r="270" fill="#0D2B25" opacity=".75"/>
+  <path d="M80 109H1120" stroke="#D4A84B" stroke-width="2" opacity=".85"/>
+  <text x="80" y="84" fill="#D4A84B" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4">COLLABORATION PROPOSAL · 2026</text>
+  <text x="80" y="260" fill="#F2EDE4" font-family="Georgia, serif" font-size="82">Womanswork</text>
+  <text x="80" y="348" fill="#D4A84B" font-family="Georgia, serif" font-size="58" font-style="italic">× Villa Sjövik</text>
+  <text x="80" y="454" fill="#F2EDE4" font-family="Arial, sans-serif" font-size="29">Womanswork gloves at work in a Nordic garden,</text>
+  <text x="80" y="494" fill="#F2EDE4" font-family="Arial, sans-serif" font-size="29">in front of 197,000 followers who garden with</text>
+  <text x="80" y="534" fill="#F2EDE4" font-family="Arial, sans-serif" font-size="29">their own hands.</text>
+</svg>
