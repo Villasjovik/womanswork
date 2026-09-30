@@ -266,7 +266,9 @@ function initLogo3D(container) {
         // Anti-Z-fighting: lyft varje path 0.5 units framåt baserat på path-ordning
         // SVGLoader returnerar paths i SVG-dokumentordning, så senare paths (vit "e", svart text)
         // hamnar visuellt framför tidigare (röd kvadrat-bakgrund)
-        mesh.position.z = pathIdx * 0.5;
+        // Opt-in per container (womanswork 2026-09-30): data-layer-gap lyfter varje path över föregående,
+        // så text på en 3D-platta inte z-fightar mot plattans framsida. Default 0.5 = tidigare beteende.
+        mesh.position.z = pathIdx * (parseFloat(container.dataset.layerGap) || 0.5);
         mesh.renderOrder = pathIdx;
         logo.add(mesh);
       }
